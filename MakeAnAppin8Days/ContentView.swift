@@ -3,6 +3,7 @@
 //  MakeAnAppin8Days
 //
 //  Created by Kraig Kistler on 8/25/23.
+//  Copyright © 2023 Kraig Kistler. All rights reserved.
 //
 
 import SwiftUI
@@ -10,12 +11,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            L1Demo()
         }
-        .padding()
     }
 }
 
