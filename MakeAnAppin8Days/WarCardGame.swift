@@ -12,7 +12,8 @@ struct WarCardGame: View {
     var body: some View {
         
         ZStack {
-            Image("background-cloth")
+            Image("background-plain")
+                .resizable()
                 .ignoresSafeArea()
             
             VStack {
@@ -36,33 +37,31 @@ struct WarCardGame: View {
                 
                 Image("button")
                 
-                
                 HStack {
                     
                     Spacer()
                     
                     VStack {
                         Text("Player")
-                            .font(.title2)
-                            .foregroundColor(.white)
+                            .font(.headline)
+                            .padding(.bottom,10)
                         Text("0")
                             .font(.largeTitle)
-                            .foregroundColor(.white)
                     }
                     
                     Spacer()
                     
                     VStack {
-                        Text("CPU")
-                            .font(.title2)
-                            .foregroundColor(.white)
+                        Text("App")
+                            .font(.headline)
+                            .padding(.bottom,10)
                         Text("0")
                             .font(.largeTitle)
-                            .foregroundColor(.white)
                     }
                     
                     Spacer()
                 }
+                .foregroundColor(.white)
                 .padding(.top, 50)
             }
             .padding()
