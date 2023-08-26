@@ -9,6 +9,12 @@
 import SwiftUI
 
 struct WarCardGame: View {
+    
+    var playerCard = "card7"
+    var cpuCard = "card13"
+    var playerScore = 0
+    var cpuScore = 0
+    
     var body: some View {
         
         ZStack {
@@ -25,17 +31,22 @@ struct WarCardGame: View {
                     
                     Spacer()
                     
-                    Image("card2")
+                    Image(playerCard)
                     
                     Spacer()
                     
-                    Image("card3")
+                    Image(cpuCard)
                     
                     Spacer()
                 }
                 .padding(.bottom,50)
                 
-                Image("button")
+                Button {
+                    deal()
+                } label: {
+                    Image("button")
+                }
+
                 
                 HStack {
                     
@@ -45,7 +56,7 @@ struct WarCardGame: View {
                         Text("Player")
                             .font(.headline)
                             .padding(.bottom,10)
-                        Text("0")
+                        Text(String(playerScore)) // Casting converting the Int data to String data
                             .font(.largeTitle)
                     }
                     
@@ -55,7 +66,7 @@ struct WarCardGame: View {
                         Text("App")
                             .font(.headline)
                             .padding(.bottom,10)
-                        Text("0")
+                        Text(String(cpuScore)) // Casting converting the Int data to String data
                             .font(.largeTitle)
                     }
                     
@@ -66,6 +77,10 @@ struct WarCardGame: View {
             }
             .padding()
         }
+    }
+    
+    func deal() {
+        print("Deal Cards")
     }
 }
 
