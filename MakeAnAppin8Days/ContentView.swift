@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            L1Demo()
+            L3DemoCard()
         }
     }
 }

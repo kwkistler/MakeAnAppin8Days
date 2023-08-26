@@ -12,7 +12,8 @@
 		20E16ABE2A9965080017282C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E16ABD2A9965080017282C /* Assets.xcassets */; };
 		20E16AC12A9965080017282C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E16AC02A9965080017282C /* Preview Assets.xcassets */; };
 		20E16AC82A9965440017282C /* L1Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E16AC72A9965440017282C /* L1Demo.swift */; };
-		20E16ACA2A996C970017282C /* L3Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E16AC92A996C970017282C /* L3Demo.swift */; };
+		20E16ACA2A996C970017282C /* L3DemoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E16AC92A996C970017282C /* L3DemoCard.swift */; };
+		20E16ACC2A997D830017282C /* WarCardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E16ACB2A997D830017282C /* WarCardGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +23,8 @@
 		20E16ABD2A9965080017282C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20E16AC02A9965080017282C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		20E16AC72A9965440017282C /* L1Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1Demo.swift; sourceTree = "<group>"; };
-		20E16AC92A996C970017282C /* L3Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L3Demo.swift; sourceTree = "<group>"; };
+		20E16AC92A996C970017282C /* L3DemoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L3DemoCard.swift; sourceTree = "<group>"; };
+		20E16ACB2A997D830017282C /* WarCardGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarCardGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 				20E16AB92A9965060017282C /* MakeAnAppin8DaysApp.swift */,
 				20E16ABB2A9965060017282C /* ContentView.swift */,
 				20E16AC72A9965440017282C /* L1Demo.swift */,
-				20E16AC92A996C970017282C /* L3Demo.swift */,
+				20E16AC92A996C970017282C /* L3DemoCard.swift */,
+				20E16ACB2A997D830017282C /* WarCardGame.swift */,
 				20E16ABD2A9965080017282C /* Assets.xcassets */,
 				20E16ABF2A9965080017282C /* Preview Content */,
 			);
@@ -147,7 +150,8 @@
 				20E16ABC2A9965060017282C /* ContentView.swift in Sources */,
 				20E16ABA2A9965060017282C /* MakeAnAppin8DaysApp.swift in Sources */,
 				20E16AC82A9965440017282C /* L1Demo.swift in Sources */,
-				20E16ACA2A996C970017282C /* L3Demo.swift in Sources */,
+				20E16ACC2A997D830017282C /* WarCardGame.swift in Sources */,
+				20E16ACA2A996C970017282C /* L3DemoCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

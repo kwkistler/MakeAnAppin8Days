@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct L3Demo: View {
+struct L3DemoCard: View {
     
     var body: some View {
         
@@ -20,9 +20,9 @@ struct L3Demo: View {
         }
     }
     
-    struct L3Demo_Previews: PreviewProvider {
+    struct L3DemoCard_Previews: PreviewProvider {
         static var previews: some View {
-            L3Demo()
+            L3DemoCard()
         }
     }
     
